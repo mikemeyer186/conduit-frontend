@@ -2,7 +2,7 @@
 FROM node:20-slim AS build
 
 ARG API_URL
-ENV API_URL=$API_URL
+ENV API_URL=${API_URL}
 
 WORKDIR /app
 
